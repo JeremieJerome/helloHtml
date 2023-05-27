@@ -5,10 +5,11 @@ cards.forEach(card => {
     card.classList.toggle('flipped');
 
     if (card.classList.contains('flipped')) {
-      // Change the color if the card is 'flipped'
-      card.style.backgroundColor = 'url(imageslol.jpg)'; // You can change 'red' to any color you want
+      // Change the image if the card is 'flipped'
+      card.style.backgroundImage = 'url(imageslol.jpg)';
     } else {
-      card.style.backgroundImage = 'url(logolol.jpg)'; // replace with the original image
+      // Reset the image when the card is not 'flipped'
+      card.style.backgroundImage = 'url(logolol.jpg)';
     }
   });
 });
