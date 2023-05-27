@@ -8,12 +8,12 @@
 .card {
   width: 100px;
   height: 100px;
-  background-image: url('patate20.jpeg'); /* Update with your image path */
+  background-image: url('patate20.jpg'); /* Update with your image path */
   background-size: cover; /* This will make sure the image covers the whole card */
   margin: 10px;
   cursor: pointer;
 }
 
 .flipped {
-  background-image: url('chip.jpeg'); /* Update with your image path */
+  background-image: url('chip.jpg'); /* Update with your image path */
 }
