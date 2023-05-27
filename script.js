@@ -1,10 +1,16 @@
-// Sélectionner toutes les cartes
 const cards = document.querySelectorAll('.card');
 
-// Ajouter un gestionnaire d'événement à chaque carte
 cards.forEach(card => {
   card.addEventListener('click', () => {
-    // Inverser la classe "flipped" lorsque la carte est cliquée
+    // Toggle the 'flipped' class and change the color
     card.classList.toggle('flipped');
+
+    if (card.classList.contains('flipped')) {
+      // Change the color if the card is 'flipped'
+      card.style.backgroundColor = 'red'; // You can change 'red' to any color you want
+    } else {
+      // Reset the color when the card is not 'flipped'
+      card.style.backgroundColor = ''; // Resets to original color
+    }
   });
 });

@@ -12,3 +12,7 @@
   margin: 10px;
   cursor: pointer;
 }
+
+.flipped {
+  background-color: red; /* Change 'red' to your desired color */
+}
