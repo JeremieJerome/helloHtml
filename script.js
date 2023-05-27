@@ -7,7 +7,7 @@ cards.forEach(card => {
 
     if (card.classList.contains('flipped')) {
       // Change the color if the card is 'flipped'
-      card.style.backgroundColor = 'palegreen'; // You can change 'red' to any color you want
+      card.style.backgroundColor = 'green'; // You can change 'red' to any color you want
     } else {
       // Reset the color when the card is not 'flipped'
       card.style.backgroundColor = ''; // Resets to original color
