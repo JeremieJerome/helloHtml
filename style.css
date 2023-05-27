@@ -8,12 +8,12 @@
 .card {
   width: 100px;
   height: 100px;
-  background-image: url('logolol.jpg'); /* Update with your image path */
+  background-image: url(url('chemin_vers_l'image_de_la_patate'); /* Update with your image path */
   background-size: cover; /* This will make sure the image covers the whole card */
   margin: 10px;
   cursor: pointer;
 }
 
 .flipped {
-  background-image: url('imageslol.jpg'); /* Update with your image path */
+  background-image: url(url('chemin_vers_l'image_de_la_patate'); /* Update with your image path */
 }
