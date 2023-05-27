@@ -9,7 +9,7 @@ cards.forEach(card => {
       card.style.backgroundImage = 'url(hh.jpg)';
     } else {
       // Reset the image when the card is not 'flipped'
-      card.style.backgroundImage = 'url(logolol.jpg)';
+      card.style.backgroundImage = 'url(patate.jpg)';
     }
   });
 });
