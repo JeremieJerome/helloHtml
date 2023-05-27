@@ -6,7 +6,7 @@ cards.forEach(card => {
 
     if (card.classList.contains('flipped')) {
       // Change the color if the card is 'flipped'
-      card.style.backgroundColor = 'pink'; // You can change 'red' to any color you want
+      card.style.backgroundColor = 'url(imageslol.jpg)'; // You can change 'red' to any color you want
     } else {
       card.style.backgroundImage = 'url(logolol.jpg)'; // replace with the original image
     }
