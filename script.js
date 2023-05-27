@@ -6,10 +6,10 @@ cards.forEach(card => {
 
     if (card.classList.contains('flipped')) {
       // Change the image if the card is 'flipped'
-      card.style.backgroundImage = 'url(hh.jpg)';
+      card.style.backgroundImage = 'url(chip.jpg)';
     } else {
       // Reset the image when the card is not 'flipped'
-      card.style.backgroundImage = 'url(patate.jpg)';
+      card.style.backgroundImage = 'url(patate20.jpg)';
     }
   });
 });
