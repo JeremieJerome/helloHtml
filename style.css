@@ -1,0 +1,14 @@
+#game-board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 10px;
+  cursor: pointer;
+}
