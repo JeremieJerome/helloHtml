@@ -8,11 +8,12 @@
 .card {
   width: 100px;
   height: 100px;
-  background-color: blue;
+  background-image: url('logolol.jpg'); /* Update with your image path */
+  background-size: cover; /* This will make sure the image covers the whole card */
   margin: 10px;
   cursor: pointer;
 }
 
 .flipped {
-  background-color: pink; /* Change 'red' to your desired color */
+  background-image: url('imageslol.jpg'); /* Update with your image path */
 }

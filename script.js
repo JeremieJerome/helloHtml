@@ -2,15 +2,12 @@ const cards = document.querySelectorAll('.card');
 
 cards.forEach(card => {
   card.addEventListener('click', () => {
-    // Toggle the 'flipped' class and change the color
     card.classList.toggle('flipped');
 
     if (card.classList.contains('flipped')) {
-      // Change the color if the card is 'flipped'
-      card.style.backgroundColor = 'pink'; // You can change 'red' to any color you want
+      card.style.backgroundImage = 'url(imageslol.jpg)'; // replace with your "flipped" image
     } else {
-      // Reset the color when the card is not 'flipped'
-      card.style.backgroundColor = ''; // Resets to original color
+      card.style.backgroundImage = 'url(logolol.jpg)'; // replace with the original image
     }
   });
 });
