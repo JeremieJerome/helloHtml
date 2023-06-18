@@ -9,7 +9,7 @@ cards.forEach(card => {
       card.style.backgroundColor= 'rgd';
     } else {
       // Reset the image when the card is not 'flipped'
-      card.style.backgroundColor 'rgd';
+      card.style.backgroundColor = 'rgd';
     }
   });
 });
